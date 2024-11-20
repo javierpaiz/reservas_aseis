@@ -233,7 +233,7 @@
 
     <!-- service section -->
 
-    
+    @livewire('page.actividades-inscripcion')
 
     <!-- end service section -->
     <!--problem section -->
