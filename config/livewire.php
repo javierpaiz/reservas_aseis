@@ -68,7 +68,7 @@ return [
     |
     */
 
-    'app_url' => null,
+    'app_url' => 'https://reservas-aseis-production.up.railway.app/',
 
     /*
     |--------------------------------------------------------------------------
