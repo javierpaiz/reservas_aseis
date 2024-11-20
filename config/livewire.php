@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => null,
+    'asset_url' => 'https://reservas-aseis-production.up.railway.app/',
 
     /*
     |--------------------------------------------------------------------------
