@@ -233,7 +233,7 @@
 
     <!-- service section -->
 
-    @livewire('page.actividades-inscripcion')
+    
 
     <!-- end service section -->
     <!--problem section -->
@@ -243,7 +243,6 @@
                 <h2>
                     Do you have any business problem ?
                 </h2>
-                @livewire('page.prueba')
             </div>
             <div class="layout_padding2">
                 <div class="img-box">
