@@ -233,7 +233,7 @@
 
     <!-- service section -->
 
-    @livewire('page.prueba')
+
 
     <!-- end service section -->
     <!--problem section -->
