@@ -1,6 +1,7 @@
 <div>
+    <link rel="stylesheet" href="css/estilonoticias.css">
     {{-- A good traveler has no fixed plans and is not intent upon arriving. --}}
-    <section class="service_section">
+    <section class=" layout_padding welcome_section">
         <div class="container">
             <div class="custom_heading-container">
                 <h2>
@@ -11,26 +12,21 @@
                 @foreach ($dataActividad as $item_actividad)
                     <div class="service_box">
                         <div class="img-box">
-                            <img src="images/s-1.jpg" alt="" />
+                            <img src="{{asset($item_actividad->imagen)}}" alt="" />
                         </div>
                         <div class="detail-box">
                             <h4>
                                 {{$item_actividad->nombreActividad}} <br />
-                                categoria
-
+                                
                             </h4>
                             <p>
-                                Descripcion de la actividad
+                                {{$item_actividad->descripcionActividad}} <br>
+                                <p><b>Categoria: </b>{{$item_actividad->descripcion}}</p>
                             </p>
+                            <a href="{{route('regitro_actividad', $item_actividad->idActividad)}}">Inscribirme</a>
                         </div>
                     </div>
                 @endforeach
-
-            </div>
-            <div>
-                <a href="">
-                    Read More
-                </a>
             </div>
         </div>
     </section>

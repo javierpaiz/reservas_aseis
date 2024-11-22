@@ -327,8 +327,8 @@ a:focus {
 
 .service_section {
   text-align: center;
-  color: #f9fcfb;
-  background-image: url(../images/service-bg.png);
+  color: #383a90;
+  background-color: white;
   background-size: 100% 100%;
   padding-top: 275px;
   padding-bottom: 125px;

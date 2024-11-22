@@ -17,7 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });*/
+
 Route::controller(PaginaController::class)->group(function () {
     // Route::get('FormatoBB/{ciclo_activo}/{nombreSeccion}/{idCarrera}', 'index')->name('indexBB');
     Route::get('/', 'pagina')->name('aseis');
- });
+    Route::get('/registro/{idActividad}', 'registrar_actividad')->name('regitro_actividad');
+    Route::get('/verificar', 'verificar_inscripcion')->name('verificar_inscripcion');
+});
