@@ -33,6 +33,8 @@
     <!-- responsive style -->
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('css/estilonoticias.css')}}">
+    <link rel="stylesheet" href="css/estilonoticias.css">
     @livewireStyles
 </head>
 <body>
