@@ -16,13 +16,13 @@
                     </a>
 
                     <a href="">
-                        <img src="images/twitter.png" alt="" />
+                        <img src="{{asset('images/twitter.png')}}" alt="" />
                     </a>
                     <a href="">
-                        <img src="images/linkedin1.png" alt="" />
+                        <img src="{{asset('images/linkedin1.png')}}" alt="" />
                     </a>
                     <a href="">
-                        <img src="images/instagram1.png" alt="" />
+                        <img src="{{asset('images/instagram1.png')}}" alt="" />
                     </a>
                 </div>
             </div>
