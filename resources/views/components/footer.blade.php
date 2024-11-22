@@ -12,7 +12,7 @@
                 class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
                 <div class="social-box">
                     <a href="">
-                        <img src="images/fb.png" alt="" />
+                        <img src={{asset('images/fb.png')}} alt="" />
                     </a>
 
                     <a href="">
