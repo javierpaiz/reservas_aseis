@@ -1,5 +1,6 @@
 <div>
     <link rel="stylesheet" href="css/estilonoticias.css">
+    <link rel="stylesheet" href="{{asset('css/estilonoticias.css')}}">
     {{-- A good traveler has no fixed plans and is not intent upon arriving. --}}
     <section class=" layout_padding welcome_section">
         <div class="container">
