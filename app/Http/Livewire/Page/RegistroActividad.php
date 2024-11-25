@@ -14,7 +14,7 @@ class RegistroActividad extends Component
     public $correo;
     public $numero_carnet;
     public $integrantes;
-    public $miembros;
+    public $miembros='';
     public function mount($idActividad)
     {
         $this->idActividad = $idActividad;
