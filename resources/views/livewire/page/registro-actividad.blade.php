@@ -90,7 +90,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputNumber4">Numero telefono</label>
-                        <input type="tel" class="form-control rounded-pill" id="inputNumber4" wire:model="telefono" />
+                        <input type="text" class="form-control rounded-pill" id="inputNumber4" wire:model="telefono" />
                         @error('telefono')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
