@@ -1,5 +1,6 @@
 <div>
-  
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <style>
         .swal2-html-container,
         .swal2-title {
