@@ -116,8 +116,7 @@
         <div class="d-flex justify-content-center">
             <span class="text-red" id="Errores"></span>
             <div class="alert alert-primary rounded-pill">
-                <p>Se usara tu correo electronico como identificador con el podras consultar tus inscripciones en el
-                    siguiente en enlace</p>
+                <p>Se usara tu correo electronico como identificador con el podras consultar tus inscripciones</p>
             </div>
         </div>
         <div class="d-flex justify-content-center">

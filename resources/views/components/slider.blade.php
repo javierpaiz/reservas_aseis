@@ -12,7 +12,7 @@
                         <div class="col-lg-5 col-md-6">
                             <div class="slider_detail-box">
                                 <h1>
-                                    Bienenidos!! <br />
+                                    Bienvenidos!! <br />
                                     Semana de Sistemas 2024
                                 </h1>
                                 <p>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="slider_img-box">
-                                <img src="images/slider-img.png" alt="" />
+                                <img src="images/slider1.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -41,10 +41,10 @@
                         <div class="col-lg-5 col-md-6">
                             <div class="slider_detail-box">
                                 <h1>
-                                    Asociacion de Estudiantes de Ingenieria de Sistemas Informaticos
+                                    Asociación de Estudiantes de Ingeniería de Sistemas Informáticos
                                 </h1>
                                 <p>
-                                    Somos una Asociacion de Estudiantes para los Estudiantes
+                                    Somos una Asociación de Estudiantes para los Estudiantes
                                 </p>
                                 <!--<div class="btn-box">
                                     <a href="" class="btn-1">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="slider_img-box">
-                                <img src="images/slider-img.png" alt="" />
+                                <img src="images/slider2.png" alt="" />
                             </div>
                         </div>
                     </div>
