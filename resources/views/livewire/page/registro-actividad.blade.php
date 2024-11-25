@@ -97,7 +97,7 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputNumber4">Numero de carnet</label>
-                        <input type="tel" class="form-control rounded-pill" id="inputNumber4" wire:model="numero_carnet" />
+                        <input type="text" class="form-control rounded-pill" id="inputNumber4" wire:model="numero_carnet" />
                         @error('numero_carnet')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror

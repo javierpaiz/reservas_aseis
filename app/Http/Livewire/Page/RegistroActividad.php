@@ -81,6 +81,6 @@ class RegistroActividad extends Component
 
     public function verificaInscripcion()
     {
-        return InscripcionModel::where('correo', $this->correo)->count();
+        return InscripcionModel::where('correo', $this->correo)->where('idActividad',$this->idActividad)->count();
     }
 }
