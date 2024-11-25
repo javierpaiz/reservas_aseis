@@ -17,7 +17,11 @@ class ActividadModel extends Model
         'fecha',
         'hora',
         'idTipoActividad',
-        'idCategoriaActividad'
+        'idCategoriaActividad',
+        'imagen',
+        'lugar',
+        'costo',
+        'capacidad'
         // Otros campos permitidos para asignación masiva
     ];
 }

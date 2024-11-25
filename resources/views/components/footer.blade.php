@@ -11,17 +11,10 @@
             <div
                 class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
                 <div class="social-box">
-                    <a href="">
+                    <a href="https://www.facebook.com/FMOASEIS">
                         <img src={{asset('images/fb.png')}} alt="" />
                     </a>
-
-                    <a href="">
-                        <img src="{{asset('images/twitter.png')}}" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="{{asset('images/linkedin1.png')}}" alt="" />
-                    </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/aseis.fmo/">
                         <img src="{{asset('images/instagram1.png')}}" alt="" />
                     </a>
                 </div>
