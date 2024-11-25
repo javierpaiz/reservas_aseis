@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="slider_img-box">
-                                <img src="images/slider1.png" alt="" />
+                                <img src="{{asset('images/slider1.png')}}"alt="" />
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="slider_img-box">
-                                <img src="images/slider2.png" alt="" />
+                                <img src="{{asset('images/slider2.png')}}" alt="" />
                             </div>
                         </div>
                     </div>
