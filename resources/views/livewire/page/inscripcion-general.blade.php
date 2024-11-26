@@ -44,9 +44,7 @@
                 </div>
             </div>
 
-            <div class="alert alert-primary rounded-pill text-center">
-                <p>Se usará tu dirección de correo electrónico como identificador. Con ella podrás consultar tus inscripciones en el siguiente enlace:</p>
-            </div>
+            
         </div>
         <div class="d-flex justify-content-center">
             <a href="/" class="btn btn-outline-secondary m-2 rounded-pill">Ir a la pagina principal</a>
