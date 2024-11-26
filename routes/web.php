@@ -23,4 +23,7 @@ Route::controller(PaginaController::class)->group(function () {
     Route::get('/', 'pagina')->name('aseis');
     Route::get('/registro/{idActividad}', 'registrar_actividad')->name('regitro_actividad');
     Route::get('/verificar', 'verificar_inscripcion')->name('verificar_inscripcion');
+    Route::get('/inscripcion-general', 'inscripcion_general')->name('inscripcion_general');
+    Route::get('/informe/{idActividad}', 'informe_inscritos')->name('informe');
+
 });
